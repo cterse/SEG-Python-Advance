@@ -288,58 +288,48 @@ class Movie:
     audience_ratings_percent = property(get_audience_ratings_percent, set_audience_ratings_percent, del_audience_ratings_percent, "audience_ratings_percent's docstring")
     
     def get_release_year(self):
-        if '/' in self.__release_date:
-            return self.__release_date.split('/')[2]
+        if '/' in self.release_date:
+            return self.release_date.split('/')[0]
         else:
-            return self.__release_date
+            return self.release_date
     
-    def equals(self, movie):
-        #print("Comparing: "+ self.__movie_title + " with " + movie.movie_title)
-        #print("Release date: " + self.get_release_year() + " x " + movie.get_release_year())
-        if self.__movie_title == movie.movie_title and self.get_release_year() == movie.get_release_year():
-            return True
-        else: 
-            return False
+    def equals_movie(self, movie):
+        if hasattr(self, "movie_title") and hasattr(movie, "movie_title") and self.movie_title == movie.movie_title:
+            if hasattr(self, "release_date") and hasattr(movie, "release_date") and self.get_release_year() == movie.get_release_year():
+                return True
+        return False
     
-    def copy_details(self, movie):
-        if self.__director == None and movie.director != None:
-            self.__director = movie.director
-        if self.__genre == None and movie.genre != None:
-            self.__genre = movie.genre
-        if self.__release_date == None and movie.release_date != None:
-            self.__release_date = movie.release_date
-        if self.__release_day_of_week == None and movie.release_day_of_week != None:
-            self.__release_day_of_week = movie.release_day_of_week
-        if self.__studio == None and movie.studio != None:
-            self.__studio = movie.studio
-        if self.__adjusted_gross_in_mill_dollars == None and movie.adjusted_gross_in_mill_dollars != None:
-            self.__adjusted_gross_in_mill_dollars = movie.adjusted_gross_in_mill_dollars
-        if self.__budget_in_mill_dollars == None and movie.budget_in_mill_dollars != None:
-            self.__budget_in_mill_dollars = movie.budget_in_mill_dollars
-        if self.__gross_in_mill_dollars == None and movie.gross_in_mill_dollars != None:
-            self.__gross_in_mill_dollars = movie.gross_in_mill_dollars
-        if self.__imdb_rating == None and movie.imdb_rating != None:
-            self.__imdb_rating = movie.imdb_rating
-        if self.__movielens_rating == None and movie.movielens_rating != None:
-            self.__movielens_rating = movie.movielens_rating
-        if self.__overseas_in_mill_dollars == None and movie.overseas_in_mill_dollars != None:
-            self.__overseas_in_mill_dollars = movie.overseas_in_mill_dollars
-        if self.__overseas_percent == None and movie.overseas_percent != None:
-            self.__overseas_percent = movie.overseas_percent
-        if self.__profit_in_mill_dollars == None and movie.profit_in_mill_dollars != None:
-            self.__profit_in_mill_dollars = movie.profit_in_mill_dollars
-        if self.__profit_percent == None and movie.profit_percent != None:
-            self.__profit_percent = movie.profit_percent
-        if self.__runtime_in_min == None and movie.runtime_in_min != None:
-            self.__runtime_in_min = movie.runtime_in_min
-        if self.__us_in_mill_dollars == None and movie.us_in_mill_dollars != None:
-            self.__us_in_mill_dollars = movie.us_in_mill_dollars
-        if self.__gross_percent_us == None and movie.gross_percent_us != None:
-            self.__gross_percent_us = movie.gross_percent_us
-        if self.__rotten_tomatoes_ratings_percent == None and movie.rotten_tomatoes_ratings_percent != None:
-            self.__rotten_tomatoes_ratings_percent = movie.rotten_tomatoes_ratings_percent
-        if self.__audience_ratings_percent == None and movie.audience_ratings_percent != None:
-            self.__audience_ratings_percent = movie.audience_ratings_percent    
+    def fill_details_from_movie(self, movie):
+        params = Movie.get_parameter_list()
+        for x in params:
+            if not hasattr(self, x) and hasattr(movie, x):
+                y = getattr(movie, x)
+                setattr(self, x, y)
+    
+    @staticmethod
+    def get_parameter_list():
+        params = []
+        params.append("movie_title")
+        params.append("director")
+        params.append("genre")
+        params.append("release_date")
+        params.append("release_day_of_week")
+        params.append("studio")
+        params.append("adjusted_gross_in_mill_dollars")
+        params.append("budget_in_mill_dollars")
+        params.append("gross_in_mill_dollars")
+        params.append("imdb_rating")
+        params.append("movielens_rating")
+        params.append("overseas_in_mill_dollars")
+        params.append("overseas_percent")
+        params.append("profit_in_mill_dollars")
+        params.append("profit_percent")
+        params.append("runtime_in_min")
+        params.append("us_in_mill_dollars")
+        params.append("gross_percent_us")
+        params.append("rotten_tomatoes_ratings_percent")
+        params.append("audience_ratings_percent")
+        return params
     
     @staticmethod
     def create_movie_from_datafile(values):
@@ -376,5 +366,9 @@ class Movie:
         return movie_obj
       
 movie_obj = Movie()
-movie_obj.release_date = "01/02/2018"
-#print(movie_obj.movie_title)
+movie_obj.release_date = "2018/03/22"
+movie_obj.movie_title = "ABC"
+movie_obj2 = Movie()
+movie_obj2.fill_details_from_movie(movie_obj)
+movie_obj2.release_date = "2018"
+# print(movie_obj.equals_movie(movie_obj2))
