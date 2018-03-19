@@ -294,9 +294,8 @@ class Movie:
             return self.release_date
     
     def equals_movie(self, movie):
-        if hasattr(self, "movie_title") and hasattr(movie, "movie_title") and self.movie_title == movie.movie_title:
-            if hasattr(self, "release_date") and hasattr(movie, "release_date") and self.get_release_year() == movie.get_release_year():
-                return True
+        if self.movie_title.lower() == movie.movie_title.lower() and self.get_release_year() == movie.get_release_year():
+            return True
         return False
     
     def fill_details_from_movie(self, movie):

@@ -10,6 +10,7 @@ from xlrd.xldate import xldate_as_tuple, xldate_from_date_tuple,\
     xldate_from_datetime_tuple, xldate_as_datetime
 from datetime import datetime
 from builtins import str
+from _ast import Str
  
 # Convert the .csv file to .xlsx, since xlrd only supports .xls and .xlsx files
 # FUTURE SCOPE. For now, convert the below files explicitly and use...
@@ -28,9 +29,9 @@ for sheet in wb.sheets():
             value = sheet.cell(row, col).value
             if col == 4:
                 value = xldate_as_datetime(value, wb.datemode)
-                value = str(value.date()).replace('-','/')
+                value = str(value.date()).replace('-','/').strip()
             elif col == 0 or col == 1 or col == 2 or col == 3 or col == 5:
-                value = str(value)
+                value = str(value).strip()
             values.append(value)
         movies_list.append(Movie.Movie.create_movie_from_datafile(values))
     # print(len(movies_list))    # 608
@@ -45,26 +46,25 @@ for sheet in wb.sheets():
         values = []
         for col in range(0, number_of_cols):
             value = sheet.cell(row, col).value
-            if col == 0 or col == 1 or col == 5:
-                value = str(value)
+            if col == 0 or col == 1:
+                value = str(value).strip()
+            if col == 5:
+                value = str(int(value)).strip()
             values.append(value)
         movies_list.append(Movie.Movie.create_movie_from_ratingsfile(values))
 
-print(len(movies_list))    # 1167
+print("Total movies = " + str(len(movies_list)))    # 1167
 
-# Find duplicates in the movies_list and merge them
+# Scan movies_list for duplicates and merge them
 count = 0
 for x in movies_list:
     for y in movies_list:
-        print("Checking:" + x.movie_title + " vs." + y.movie_title)
         if x is y:
-            print("continued")
             continue
         if x.equals_movie(y):
-            print("equal")
+            # print(x.movie_title + "("+x.release_date+") == " + y.movie_title + "("+y.release_date+")")
             x.fill_details_from_movie(y)
             movies_list.remove(y)
             count += 1
-        print('Unequal\n')
 print("Duplicate count = " + str(count))
-print("Movies List len = " + str(len(movies_list)))
+print("Unique movies = " + str(len(movies_list)))
