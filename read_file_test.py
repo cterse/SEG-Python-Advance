@@ -56,11 +56,15 @@ print(len(movies_list))    # 1167
 count = 0
 for x in movies_list:
     for y in movies_list:
+        print("Checking:" + x.movie_title + " vs." + y.movie_title)
         if x is y:
+            print("continued")
             continue
         if x.equals_movie(y):
+            print("equal")
             x.fill_details_from_movie(y)
             movies_list.remove(y)
             count += 1
+        print('Unequal\n')
 print("Duplicate count = " + str(count))
 print("Movies List len = " + str(len(movies_list)))
