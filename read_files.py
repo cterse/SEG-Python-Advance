@@ -70,4 +70,10 @@ def get_movie_list():
     # print("Duplicate count = " + str(count))
     # print("Unique movies = " + str(len(movies_list)))
     
+    # The final movies list is prepared. Allot movie ids to the movies
+    id_numeral = 0
+    for x in movies_list:
+        x.movie_id = "MOV" + str(id_numeral)
+        id_numeral += 1
+    
     return movies_list

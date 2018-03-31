@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import read_files
 import math
 import matplotlib
+import numpy
 
 def movies_per_year_line():
     movie_list = read_files.get_movie_list()
@@ -89,5 +90,35 @@ def total_overseas_and_us_revenue_per_year():
     
     plt.show()
 
+def gross_revenue_rating_scatter():
+    movie_list = read_files.get_movie_list()
+    movie_gross_revenue_rating_dict = {}
+    
+    for x in movie_list:
+        if hasattr(x, "gross_in_mill_dollars"):
+            movie_gross_revenue_rating_dict[x.movie_id] = [x.gross_in_mill_dollars, x.get_average_rating()]
+    # print(movie_gross_revenue_rating_dict)
+    
+    area = []
+    for x in movie_gross_revenue_rating_dict:
+        temp_area = movie_gross_revenue_rating_dict[x][0] * movie_gross_revenue_rating_dict[x][1]
+        area.append(temp_area * 0.01)
+    # print(area)
+    
+    X, Y, temp_values_list = [], [], []
+    temp_values_list = list(movie_gross_revenue_rating_dict.values())
+    for x in temp_values_list:
+        X.append(x[0])
+        Y.append(x[1])
+    # print(X)
+    # print(Y)
+    
+    plt.xlabel("Gross Revenue in Million Dollars")
+    plt.ylabel("Average Rating")
+    color = numpy.random.rand(len(movie_gross_revenue_rating_dict))
+    plt.scatter(x=X, y=Y, s=area, c=color, alpha=0.5)
+    plt.show()
+    
 # movies_per_year_line()
-total_overseas_and_us_revenue_per_year()
+# total_overseas_and_us_revenue_per_year()
+# gross_revenue_rating_scatter()

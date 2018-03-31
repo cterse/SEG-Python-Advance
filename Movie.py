@@ -6,6 +6,18 @@ Created on Mar 16, 2018
 
 class Movie:
 
+    def get_movie_id(self):
+        return self.__movie_id
+
+
+    def set_movie_id(self, value):
+        self.__movie_id = value
+
+
+    def del_movie_id(self):
+        del self.__movie_id
+
+
     def get_movie_title(self):
         return self.__movie_title
 
@@ -244,7 +256,8 @@ class Movie:
 
     def del_audience_ratings_percent(self):
         del self.__audience_ratings_percent
-
+        
+    movie_id                            = None
     movie_title                         = None
     director                            = None
     genre                               = None
@@ -254,8 +267,6 @@ class Movie:
     adjusted_gross_in_mill_dollars      = None
     budget_in_mill_dollars              = None
     gross_in_mill_dollars               = None
-    imdb_rating                         = None
-    movielens_rating                    = None
     overseas_in_mill_dollars            = None
     overseas_percent                    = None
     profit_in_mill_dollars              = None
@@ -265,7 +276,10 @@ class Movie:
     gross_percent_us                    = None
     rotten_tomatoes_ratings_percent     = None
     audience_ratings_percent            = None
+    imdb_rating                         = None
+    movielens_rating                    = None
     
+    movie_id = property(get_movie_id, set_movie_id, del_movie_id, "movie_id's docstring")
     movie_title = property(get_movie_title, set_movie_title, del_movie_title, "movie_title's docstring")
     director = property(get_director, set_director, del_director, "director's docstring")
     genre = property(get_genre, set_genre, del_genre, "genre's docstring")
@@ -304,6 +318,28 @@ class Movie:
             if not hasattr(self, x) and hasattr(movie, x):
                 y = getattr(movie, x)
                 setattr(self, x, y)
+    
+    def get_average_rating(self):
+        count = 0
+        avg_rating = 0.0
+        
+        if hasattr(self, "audience_ratings_percent"):
+            count += 1
+            avg_rating += self.audience_ratings_percent
+        if hasattr(self, "rotten_tomatoes_ratings_percent"):
+            count += 1
+            avg_rating += self.rotten_tomatoes_ratings_percent
+        if hasattr(self, "imdb_rating"):
+            count += 1
+            # Convert /10 rating to /100
+            avg_rating += self.imdb_rating * 10
+        if hasattr(self, "movielens_rating"):
+            count += 1
+            # Convert /5 rating to /100
+            avg_rating += self.movielens_rating * 20
+        
+        avg_rating = avg_rating / float(count)
+        return avg_rating
     
     @staticmethod
     def get_parameter_list():
@@ -370,4 +406,5 @@ movie_obj.movie_title = "ABC"
 movie_obj2 = Movie()
 movie_obj2.fill_details_from_movie(movie_obj)
 movie_obj2.release_date = "2018"
+# movie_obj.get_average_rating()
 # print(movie_obj.equals_movie(movie_obj2))
