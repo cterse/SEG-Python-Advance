@@ -1,0 +1,100 @@
+﻿<!DOCTYPE NETSCAPE-Bookmark-file-1>
+<!-- This is an automatically generated file.
+It will be read and overwritten.
+Do Not Edit! -->
+<TITLE>Bookmarks</TITLE>
+<H1>Bookmarks</H1>
+<DL><p>
+    <DT><H3 FOLDED ADD_DATE="1533709376">L&T Infotech Email Sites</H3>
+    <DL><p>
+        <DT><A HREF="https://Outlook.Office365.com" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1533711447" >Office365</A>
+        <DT><A HREF="https://webmail.lntinfotech.com/owa" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Webmail</A>
+    </DL><p>
+    <DT><H3 FOLDED ADD_DATE="1533709376">L&T Infotech HR Sites</H3>
+    <DL><p>
+        <DT><A HREF="https://1step.lntinfotech.com" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1533711447" >1Step</A>
+        <DT><A HREF="https://Aspire.lntinfotech.com/" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Aspire</A>
+        <DT><A HREF="https://empanel.lntinfotech.com" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1533711447" >Empanel</A>
+        <DT><A HREF="https://HRpolicies.lntinfotech.com" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >HR Policies</A>
+        <DT><A HREF="https://hrportal.lntinfotech.com" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1533711447" >HR Portal</A>
+        <DT><A HREF="https://IAssist.lntinfotech.com/" ADD_DATE="1533709376" LAST_VISIT="1534481941" LAST_MODIFIED="1534481941" >Hrhelpdesk</A>
+        <DT><A HREF="http://icore.lntinfotech.com/" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >i.core</A>
+        <DT><A HREF="https://iattendance.lntinfotech.com" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >iattendance</A>
+        <DT><A HREF="http://impetus.lntinfotech.com" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Impetus</A>
+        <DT><A HREF="https://impressions.lntinfotech.com/" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >IMPRESSIONS</A>
+        <DT><A HREF="https://iVizon.lntinfotech.com" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >iVizon</A>
+        <DT><A HREF="https://reportal.lntinfotech.com/" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Nexus</A>
+        <DT><A HREF="https://eservices.paychex.com/secure/" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Paychex (USA)</A>
+        <DT><A HREF="https://sso.lntinfotech.com/SSC" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Payroll (SSC)</A>
+        <DT><A HREF="https://reportal.lntinfotech.com/" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Reportal - Nexus</A>
+        <DT><A HREF="http://rrsystem.lntinfotech.com/RR/Frame/RRFrame.aspx" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Resource Requisition - RR</A>
+        <DT><A HREF="https://1to1help.net/" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >SAATHI</A>
+        <DT><A HREF="https://smiles.lntinfotech.com/sMiles" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >sMiles</A>
+    </DL><p>
+    <DT><H3 FOLDED ADD_DATE="1533709376">L&T Infotech IT Infra Sites</H3>
+    <DL><p>
+        <DT><A HREF="https://adpass.lntinfotech.com/showLogin.cc" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Adpass</A>
+        <DT><A HREF="https://IAssist.lntinfotech.com" ADD_DATE="1533709376" LAST_VISIT="1534481941" LAST_MODIFIED="1534481941" >IT Servicedesk Website</A>
+        <DT><A HREF="http://itsecurity" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >ITSecurity Website</A>
+    </DL><p>
+    <DT><H3 FOLDED ADD_DATE="1533709376">L&T Infotech Quality Sites</H3>
+    <DL><p>
+        <DT><A HREF="https://Gyankosh.lntinfotech.com" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Gyankosh</A>
+        <DT><A HREF="https://iassist.lntinfotech.com/" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >QA Service Desk</A>
+        <DT><A HREF="https://lntinfotech.sharepoint.com/sites/qms" ADD_DATE="1533709376" LAST_VISIT="1534481941" LAST_MODIFIED="1534481941" >QMS Site</A>
+    </DL><p>
+    <DT><H3 FOLDED ADD_DATE="1533709376">L&T Infotech Resourcing Sites</H3>
+    <DL><p>
+        <DT><H3 FOLDED ADD_DATE="1533709376">Sourcing</H3>
+        <DL><p>
+            <DT><A HREF="https://icore.lntinfotech.com/" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >i.core</A>
+        </DL><p>
+        <DT><A HREF="http://rrsystem.lntinfotech.com/RR" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >AveNew</A>
+        <DT><A HREF="https://greymatter.lntinfotech.com/default.aspx" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >GreyMatter</A>
+        <DT><A HREF="https://imanage.lntinfotech.com" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >imanage</A>
+        <DT><A HREF="https://profit.lntinfotech.com/ProFit" ADD_DATE="1533709377" LAST_VISIT="1534481941" LAST_MODIFIED="1534481941" >ProFit</A>
+        <DT><A HREF="http://rrsystem.lntinfotech.com/RR" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >RR System</A>
+    </DL><p>
+    <DT><H3 FOLDED ADD_DATE="1533709376">L&T Infotech Training Sites</H3>
+    <DL><p>
+        <DT><A HREF="https://lntinfotech.sharepoint.com/sites/iLearning/SitePages/iLearn%20Home.aspx" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >iLearn</A>
+        <DT><A HREF="http://library.lntinfotech.com/" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Lntinfotech Library</A>
+    </DL><p>
+    <DT><H3 FOLDED ADD_DATE="1533709377">L&T Infotech WebEx</H3>
+    <DL><p>
+        <DT><A HREF="https://ltil.webex.com" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1533711447" >WebEx</A>
+    </DL><p>
+    <DT><H3 FOLDED ADD_DATE="1533709376">L&T Infotech Websites</H3>
+    <DL><p>
+        <DT><A HREF="https://accountmanagement.lntinfotech.com/" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Account Management</A>
+        <DT><A HREF="https://adminhelpdesk.lntinfotech.com/" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Admin Helpdesk</A>
+        <DT><A HREF="https://clientsatisfactionsurvey.lntinfotech.com" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Client Satisfaction Survey</A>
+        <DT><A HREF="https://compass.lntinfotech.com" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Compass</A>
+        <DT><A HREF="https://enable.lntinfotech.com/" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Enable</A>
+        <DT><A HREF="http://gotanidea.lntinfotech.com/AboutUs.aspx" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Got An Idea</A>
+        <DT><A HREF="https://greymatter.lntinfotech.com" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >GreyMatter</A>
+        <DT><A HREF="https://www.concursolutions.com/UI/SSO/p0060407a6gm" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >iClaims</A>
+        <DT><A HREF="https://insight3.lntinfotech.com" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >Insight3</A>
+        <DT><A HREF="https://itime.lntinfotech.com/" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >iTime</A>
+        <DT><A HREF="https://www.concursolutions.com/UI/SSO/p0060407a6gm" ADD_DATE="1533709377" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >iTravel</A>
+        <DT><A HREF="https://www.lntinfotech.com" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >L&T Infotech Website</A>
+        <DT><A HREF="https://lntinfotech.crm5.dynamics.com" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >MS CRM - My Customer Connect</A>
+        <DT><A HREF="https://sso.lntinfotech.com/ODOCON" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >ODOCON</A>
+        <DT><A HREF="https://profit.lntinfotech.com/ProFit" ADD_DATE="1533709377" LAST_VISIT="1534481941" LAST_MODIFIED="1534481941" >ProFit</A>
+        <DT><A HREF="https://sso.lntinfotech.com/ProRET" ADD_DATE="1533709376" LAST_VISIT="1533711447" LAST_MODIFIED="1534481941" >ProRET</A>
+        <DT><A HREF="https://splicem.lntinfotech.com" ADD_DATE="1533709377" LAST_VISIT="1534481941" LAST_MODIFIED="1534481941" >SpliceM</A>
+    </DL><p>
+    <DT><H3 FOLDED ADD_DATE="1533709404">Links</H3>
+    <DL><p>
+        <DT><A HREF="https://ieonline.microsoft.com/#ieslice" ADD_DATE="1533711444" LAST_VISIT="1533711447" LAST_MODIFIED="1533711479" FEEDURL="https://ieonline.microsoft.com/#ieslice" WEBSLICE="true" ISLIVEPREVIEW="true" PREVIEWSIZE="320x240" ICON_URI="https://ieonline.microsoft.com/favicon.ico" >Suggested Sites</A>
+        <DT><A HREF="http://go.microsoft.com/fwlink/?LinkId=121315" ADD_DATE="1533709407" LAST_VISIT="1533711447" LAST_MODIFIED="1533711447" FEEDURL="http://go.microsoft.com/fwlink/?LinkId=121315" WEBSLICE="true" ISLIVEPREVIEW="true" >Web Slice Gallery</A>
+    </DL><p>
+    <DT><H3 FOLDED ADD_DATE="1533709415">Links for United States</H3>
+    <DL><p>
+        <DT><A HREF="http://go.microsoft.com/fwlink/?LinkId=129792" ADD_DATE="1533709415" LAST_VISIT="1533711447" LAST_MODIFIED="1533711447" >GobiernoUSA.gov</A>
+        <DT><A HREF="http://go.microsoft.com/fwlink/?LinkId=129791" ADD_DATE="1533709415" LAST_VISIT="1533711447" LAST_MODIFIED="1533711447" >USA.gov</A>
+    </DL><p>
+    <DT><H3 FOLDED ADD_DATE="1534481941">Project Connect Intranet Website</H3>
+    <DL><p>
+    </DL><p>
+</DL><p>
